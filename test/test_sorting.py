@@ -2,6 +2,7 @@ import pytest
 from src.selection import Selection
 from src.bubble import Bubble
 
+
 class TestSorting:
 
     @pytest.mark.parametrize("instance", [Selection(), Bubble()])
